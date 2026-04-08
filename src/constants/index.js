@@ -167,7 +167,7 @@ const projects = [
       }
     ],
     image: dp,
-    source_code_link: "#",
+    source_code_link: "https://github.com/KritanShres/DigitalPratilipi",
   },
 ];
 
