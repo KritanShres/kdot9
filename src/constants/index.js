@@ -16,7 +16,8 @@ import {
   github,
   american,
   dp,
-  chronelabs
+  chronelabs,
+  remotework
 } from "../assets";
 
 export const navLinks = [
@@ -101,16 +102,28 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Spring Boot Intern",
-    company_name: "Chrone Labs Technologies",
+    title: "Freelance Full-Stack Developer",
+    company_name: "Self-Employed",
+    icon: remotework, // placeholder: add your own icon import
+    iconBg: "#383E56",
+    date: "June 2026 - July 2026",
+    points: [
+      "Delivered full-stack websites with admin control panels for two clients, Himal Saccoss (Illam) and Illam Baptist Church, handling requirements, development, and deployment end-to-end.",
+      "Built responsive React frontends and Node.js backends, using Supabase (PostgreSQL + object storage) for data and media management.",
+      "Deployed backends on Render and frontends on Vercel, establishing a reliable production workflow for both projects.",
+      "Designed role-based admin dashboards so non-technical staff can manage website content without a developer.",
+    ],
+  },
+  {
+    title: "Java Web Development Intern",
+    company_name: "Chronelabs Technologies",
     icon: chronelabs,
     iconBg: "#383E56",
-    date: "Dec-1 to Mar-1",
+    date: "Dec 2025 - Mar 2026",
     points: [
-      "Developed frontend interfaces using vanilla JavaScript, HTML, and CSS, handling dynamic content updates through AJAX.",
-      "Integrated the frontend with Java Spring Boot REST APIs, implementing CRUD operations.",
-      "Learning from senior developers to test endpoints using Swagger.UI, and align frontend data handling with backend response structures.",
-      "Participating in code reviews and code refactoring.",
+      "Contributed to the HPB (Hepato-Pancreato-Biliary) Disease Management System, a clinical research platform built with Spring Boot, MySQL, and an HTML/CSS/JavaScript frontend.",
+      "Worked with the Senior Developer to implement client-requested features, including new MySQL tables and their UI views, from requirements through integration.",
+      "Identified and fixed frontend JavaScript bugs and carried out small refactoring tasks to keep the codebase clean and consistent.",
     ],
   },
 ];
@@ -136,19 +149,6 @@ const testimonials = [
 
 const projects = [
   {
-    name: "American Sign Language Detection",
-    description:
-      "Simple Convolutional NN based ASL detection system.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: american,
-    source_code_link: "https://github.com/KritanShres/AmericanSignLanguage",
-  },
-    {
     name: "Digital Pratilipi",
     description:
       "Transformer based Devnagari Handwritten text OCR system.",
@@ -168,6 +168,19 @@ const projects = [
     ],
     image: dp,
     source_code_link: "https://github.com/KritanShres/DigitalPratilipi",
+  },
+  {
+    name: "American Sign Language Detection",
+    description:
+      "Simple Convolutional NN based ASL detection system.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: american,
+    source_code_link: "https://github.com/KritanShres/AmericanSignLanguage",
   },
 ];
 

@@ -25,6 +25,8 @@ import chronelabs from "./company/chronelab.png";
 import american from "./american.jpg";
 import dp from "./dp.jpg";
 
+import remotework from "./remotework.png"
+
 export {
   logo,
   backend,
@@ -49,5 +51,6 @@ export {
   springboot,
   american,
   dp,
-  chronelabs
+  chronelabs,
+  remotework
 };

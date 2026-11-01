@@ -61,7 +61,7 @@ const About = () => {
       <div className="mt-10 flex flex-col items-center">
         <p className="text-secondary mb-4 text-[15px]">Download my Resume</p>
         <a
-          href="src\assets\KritansResume.pdfd" // replace with actual path
+          href="src\assets\KritanResume.pdf" // replace with actual path
           download
           className="flex items-center bg-primary text-white px-6 py-3 rounded-lg hover:bg-tertiary transition-colors"
         >
